@@ -1,0 +1,86 @@
+- ASP.NET Core Application Lifecycle
+    - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-2.1&tabs=aspnetcore2x
+    - .NET Core çalışma alt yapısı
+    - MIL - JIT Compiler vs. 
+
+- External class içinde database bağlantısı nasıl yapılır?
+    - Burada yapılacak şeylerden biri, context kısmını direk olarak dışarıdan almak.
+    - Kullanılacağı yerde db bağlantısı yapılıp buraya verilebilir.
+
+- Startup.cs içindeki metotların ayrıntılı anlamları
+- Giriş kısmındaki kullanılabilir paket yöneticileri notu tamamlanacak.
+- asp.net kısmına ado.net ile ilgili notlar eklenecek.
+
+- Settings dosyalarının yapılandırılması
+    - https://www.c-sharpcorner.com/article/all-about-appsettings-json-in-asp-net-core-2-0/
+    - DB bağlantı stringinin appsettings içinden çekilmesi ve notlara eklenmesi
+
+- BundleConfig ayarlamalarının yapılması (db önceki notlar)
+
+- Program başlangıcında çalışacak metotlar oluşturma.
+
+- IApplicationBuilder, IHostingEnvironment, IServiceCollection metotlarının ayrıtıları.
+- WebHostBuilder ayarlamaları.
+    - https://wildermuth.com/2017/07/06/Program-cs-in-ASP-NET-Core-2-0
+
+- Root dizini alma yöntemleri. wwwroot dizininin nasıl alınacağı? Bu dizinin publish edildiğinde root files olarak bulunup bulunmadığı
+
+- Formlar ile ilgili bir not oluşturulacak.
+    - Form elemanları
+        - Form elemanlarının ayrı ayrı olarak kullnaılması ile ilgili CEO çıkarımları
+        - Bunla ilgili bir medium yazısı vardı. 
+    - Formlar üzerinden dosya gönderim örnekleri
+    - Tag helperlar dahil edilebilir.
+    - Formların post ve get ile gönderimleri
+    - Form bilgilerinin arka planda çekilmesi   
+        - Bunlardan model binding ve normal yöntem arasıdaki fark.
+
+- DI Liftime
+    - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection#service-lifetimes-and-registration-options 
+
+- RoadMap dosyası içinde konu listesi yazılacak.
+    - Aralara projeler ve front end konuları yereştirilecek
+    - Örnek proje planlaması yapılacak, projeler yapılıp yüklenebilir.
+
+- Projelere, ASP dışında ek konular eklenecek.
+    - Github
+        - PDF belgesi
+    - TFS
+    - Temiz kod yazma
+        - https://hackernoon.com/tips-from-the-book-every-programmer-should-read-425fb77873f8
+        - Youtube videosu
+
+- Scaffolding nedir?
+
+- IDesignTimeDbContext sınıfı araştırılacak.
+
+- Idendity Core ile ilgili not hazırlanacak
+    - 155. Setting up Idendity Core notuna bir daha bakılacak.
+    - Cookie Authentication In ASP.net Core 2.0
+
+- Metadata olarak UIHint araştırılacak.
+
+- dotnet CLI commands
+    - https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x
+
+- App Secure kısmına bakılacak 
+    - https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-2.0&tabs=aspnetcore2x#securing-the-app
+
+- Core ile Docker kullanımı
+    - Vagrant üzerinde deployment
+    - Azure ve Amazon üzerinde deployment
+    - https://www.vagrantup.com/
+    - https://github.com/sprosin/vagrant-dotnet-core
+
+- microsoftun kendi kütüphanesine bakılacak referans olarak :
+    - https://docs.microsoft.com/en-us/aspnet/core/index
+    - https://docs.microsoft.com/en-us/ef/#pivot=efcore&panel=efcore-all
+    - https://www.tektutorialshub.com/asp-net-core-tutorial/
+
+// GENEL
+- Design patterns ( % Strategy Pattern )
+- Class yapısındaki base yapısı
+- Derinlemesine C# ile ilgil araştırma yapılacak. 
+- İsimlendirme kuralları
+    - http://wiki.c2.com/?CapitalizationRules
+- Generic Ifadeler (T ve T ile kullanılan where kavramları)
